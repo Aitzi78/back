@@ -1,0 +1,33 @@
+GET http://localhost:5000/api/Preguntas/2
+
+###
+POST http://localhost:5000/api/Preguntas
+Content-Type: application/json
+
+{
+    "textoPreguntas" : "Esto es la prueba"
+}
+###
+PUT  http://localhost:5000/api/Preguntas/9
+Content-Type: application/json
+
+{
+    "textoPreguntas" : "texto cambiado"
+}
+###
+
+DELETE http://localhost:5000/api/Preguntas/11
+###
+
+GET http://localhost:5000/api/Respuestas/8
+
+###
+
+
+POST http://localhost:5000/api/Respuestas/1
+Content-Type: application/json
+
+{
+    "textoRespuestas" : "Esto es la prueba"
+    
+}
